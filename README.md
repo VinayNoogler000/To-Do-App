@@ -4,7 +4,7 @@ Hey, I am excited and proud to share you that today I had developed my first rea
 
 I developed this app using frontend technologies: HTML & JavaScript.
 
-NOTE: The 'main' branch contains the initial/older version of To-Do App & 'updated' branch contains the latest/updated version of the To-Do app, which is developed by me.
+NOTE: The 'main' branch contains the initial/older version of To-Do App & 'updated' branch contains the latest/updated version of the To-Do app, which are developed by me.
 
 The To-Do App, which I had developed has basic features like: adding tasks in the To-Do list, removing tasks from the To-Do list, viewing the To-Do lists and quitting the application.
 
