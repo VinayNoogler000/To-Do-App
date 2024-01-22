@@ -1,5 +1,6 @@
 //JS file to add functionality to 'index.html or to-do' webpage.
 
+
 //----------------------------To-Do App On Web Page-------------------------------
 let inp = document.querySelector("input");
 let addBtn = document.querySelector("button");
