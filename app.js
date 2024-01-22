@@ -6,12 +6,11 @@ let inp = document.querySelector("input");
 let addBtn = document.querySelector("button");
 let ul = document.querySelector("ul");
 
-function createDelBtn() { //funtion to create a delete button element
-    let delBtn = document.createElement("button"); // a <button> element created to 'delete' task 
-    delBtn.textContent = "Delete";
-    delBtn.classList.add("delete");
-    return delBtn;
-}
+addBtn.addEventListener("click", function() {
+    let value = inp.value; //value entered by the user
+    createListItem(value); //<li> element created with text content 'value' and appended in <ul> element
+    inp.value = ""; //updated the value in the input box/field to empty
+});
 
 function createListItem(val) { //funtion to create a list item and append it to the <ul> element
     let li = document.createElement("li"); // <li> element created
@@ -21,12 +20,12 @@ function createListItem(val) { //funtion to create a list item and append it to 
     ul.appendChild(li); // <li> element appended as a child element of <ul> element.
 }
 
-
-addBtn.addEventListener("click", function() {
-    let value = inp.value; //value entered by the user
-    createListItem(value); //<li> element created with text content 'value' and appended in <ul> element
-    inp.value = ""; //updated the value in the input box/field to empty
-});
+function createDelBtn() { //funtion to create a delete button element
+    let delBtn = document.createElement("button"); // a <button> element created to 'delete' task 
+    delBtn.textContent = "Delete";
+    delBtn.classList.add("delete");
+    return delBtn;
+}
 
 //This below commented code will not work.
 // let delBtns = document.querySelectorAll(".delete");
