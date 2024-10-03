@@ -4,7 +4,7 @@
 Hey, I am excited and proud to share you that today I had developed my first real-world application, a To-Do App.
 
 ## Tech Info:
-I developed this app using frontend technologies: HTML & JavaScript.
+I developed this app using frontend technologies: HTML, CSS & JavaScript.
 
 ## NOTE: 
 The 'main' branch contains the initial/older version of To-Do App & 'updated' branch contains the latest/updated version of the To-Do app.
